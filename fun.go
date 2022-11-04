@@ -3,5 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world")
+	var firstnumber int
+	var secondnumber int
+
+	fmt.Println("Asasin number :")
+	fmt.Scanln(firstnumber)
+
+	fmt.Println("Kropka number :")
+	fmt.Scanln(secondnumber)
+
 }
